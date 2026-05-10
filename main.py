@@ -1,5 +1,5 @@
 #Código por Julen Moras Moreno, programador del CanSat SPIRA
-
+#Forat Engineering, 2026.
 import os
 import uasyncio                                                                           
 from machine import Pin, UART, I2C                                              
