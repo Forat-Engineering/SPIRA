@@ -1,3 +1,5 @@
+#Código por Juen Moras Moreno, programador del CanSat SPIRA
+
 import os
 import uasyncio                                                                           
 from machine import Pin, UART, I2C                                              
