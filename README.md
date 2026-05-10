@@ -10,6 +10,6 @@ Las librerías usadas por [main.py](main.py), ubicadas en la subcarpeta [/lib](/
 
 # CONTACTO
 
-Para más información sobre nuestro proyecto, visite nuestra página web y redes sociales, disponibles en nuestro perfil.
+Para más información sobre nuestro proyecto, visite nuestra [página web](https://foratredesign-ah8b4gcy.manus.space/), nuestra cuenta de Instagram (@cansatforatengineering2026) y nuestro [canal de Twitch](https://www.twitch.tv/spira2026) donde emitiremoe en vivo el lanzamiento del SPIRA.
 
 
