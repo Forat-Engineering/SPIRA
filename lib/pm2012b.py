@@ -8,7 +8,7 @@ import struct
 
 # ── Configuración ────────────────────────────────────────────────────────────
 
-UART_ID   = 1   # LAS CAMBIO POR CODIGO DESDE MI PROPIO SCRIPT (Nota de Julen)
+UART_ID   = 1   # LAS CAMBIO POR CODIGO DESDE MI PROPIO SCRIPT (Nota de Julen Moras, programador del SPIRA)
 UART_TX   = 4   # GP4
 UART_RX   = 5   # GP5
 BAUDRATE  = 9600
