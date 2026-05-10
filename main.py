@@ -1,4 +1,4 @@
-#Código por Juen Moras Moreno, programador del CanSat SPIRA
+#Código por Julen Moras Moreno, programador del CanSat SPIRA
 
 import os
 import uasyncio                                                                           
