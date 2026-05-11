@@ -232,7 +232,7 @@ def get_time(): #Para poder devolver el tiempo actual de la siguiente forma: HH:
     ms = time.ticks_ms() % 1000  
     return f"{t[3]:02d}:{t[4]:02d}:{t[5]:02d},{ms:03d}"
 
-async def asyncError(val): #Mostrar el ERROR por hardware. (ASÍNCRONO)
+async def asyncError(val): #Mostrar el ERROR por hardware (ASÍNCRONO)
     for i in range(3):
         led.value(1)
         buzzer.value(0)
@@ -242,7 +242,7 @@ async def asyncError(val): #Mostrar el ERROR por hardware. (ASÍNCRONO)
         await uasyncio.sleep(0.05)
     buzzer.value(val)
 
-async def sensor_task(sensor):
+async def sensor_task(sensor): #Obtener datos del PM2012B (ASÍNCRONO)
     global sensor_data
     while True:
         data = sensor.get_data()
@@ -255,7 +255,7 @@ async def sensor_task(sensor):
 
 altitud_maxima = 0
 
-async def main(): # MAIN LOOP. (ASÍNCRONO)
+async def main(): # MAIN LOOP (ASÍNCRONO)
     
     global altitud_minima      
     global altitud_maxima      
